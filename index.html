@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="parent">
+        <div class="first" id="sec" style="float: left;">
+            <table border="5px">
+                <tr>
+                    <th colspan=2><strong>BMI Classification</strong></th>
+                </tr>
+                <tr>
+                    <td>18.4 OR LESS</td>
+                    <td id="udw">UNDERWEIGHT</td>
+                </tr>
+                <tr>
+                    <td>18.5 TO 24.9</td>
+                    <td id="norm">NORMAL</td>
+                </tr>
+                <tr>
+                    <td>25 TO 29.9</td>
+                    <td id="owt">OVERWEIGHT</td>
+                </tr>
+                <tr>
+                    <td>30 TO 34.9</td>
+                    <td id="ob1">OBESE(CLASS 1)</td>
+                </tr>
+                <tr>
+                    <td>35 OR 39.9</td>
+                    <td id="ob2">OBESE(CLASS 2)</td>
+                </tr>
+                <tr>
+                    <td>40 OR ABOVE</td>
+                    <td id="ob3">OBESE(CLASS 3)</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="second" id="main" style="float: right;">
+            <div>
+                <h1>Calculate Your BMI</h1>
+                <h2>Select system of measurement : </h2>
+                    <input type="radio" name="system" value="metric" id="met" onclick="dmetric()">Metric System <br>
+                    <br>
+                    <input type="radio" name="system" value="imperial" id="imp" onclick="dimperial()">Imperial System
+                    <br> <br>
+                    Enter the weight: <input id="in" type="number">
+                    <br> <br>
+                    Enter the height: <input id="in1" type="number">
+                    <br> <br>
+                
+
+                <button id="calBtn" onclick="greet()">Calculate BMI</button>
+
+                <p id="para"></p>
+            </div>
+            <script src="script.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>

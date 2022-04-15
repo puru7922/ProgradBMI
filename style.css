@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(241, 242, 243);
+}
+h1{
+    color: rgb(3, 0, 177);
+}
+h2{
+    color: rgb(3, 3, 245);
+}
+#calBtn{
+    border-radius: 10px;
+    color: rgb(4, 1, 199);
+}
+.first table{
+    background-color: rgb(223, 224, 224);
+}
+#main{
+    width: 51%;
+    height: 100%;
+    text-align: center;
+    padding-top: 6%;
+    font-size: larger;
+}
+#sec{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 4%;
+    font-size: 220%
+}
+#udw{
+    background-color: rgb(204, 250, 1);
+    width: 300px;
+}
+#norm{
+    background-color: rgb(3, 250, 16);
+    width: 300px;
+}
+#owt{
+    background-color: rgb(247, 189, 1);
+    width: 300px;
+}
+#ob1{
+    background-color: rgb(248, 146, 98);
+    width: 300px;
+}
+#ob2{
+    background-color: rgb(255, 72, 0);
+    width: 300px;
+}
+#ob3{
+    background-color: rgb(255, 0, 0);
+    width: 300px;
+}
